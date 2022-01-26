@@ -22,4 +22,7 @@
 - Se pueden definir álgebras de Boole a partir de una estructura de orden.
 - También se pueden definir a partir de los operadores $\vee, \wedge, \neg$.
 
+## Vídeo 4. La potencia de un conjunto es un álgebra de Boole.
 
+- La suma es la diferencia simétrica y la multiplicación la intersección.
+- La diferencia simétrica se traduce en un "or" no inclusivo.
