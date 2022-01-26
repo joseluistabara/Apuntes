@@ -1,0 +1,55 @@
+- Una relación de $A$ con $B$ es un subconjunto del producto cartesiano $A \times B$.
+- Una función (parcial) es un tipo especial de relación.
+- Por analogía con las funciones se define el dominio y la imagen de cualquier relación.
+- Se puede definir la inversa de una relación cambiando el orden de los conjuntos. No aporta ninguna información nueva.
+- La unión, la intersección, la diferencia simétrica,\dots\  de relaciones es de nuevo una relación entre los mismos conjuntos.
+- Por analogía con la composición de funciones se define la composición de relaciones.
+- Cualquier relación se puede restringir a cualquier par de subconjuntos de $A$ y de $B$.
+- Las relaciones en $A\times A$ se pueden representar por grafos dirigidos.
+- Propiedades \**reflexiva**, **simétrica**, **antisimétrica** y  **transitiva**.
+- Las propiedades anteriores se heredan en cualquier subconjunto.
+- \textbf{Relación de equivalencia}. Induce una partición en el conjunto. Se puede definir el **conjunto cociente**.
+- \textbf{Teorema de factorización canónica}.
+- Un \textbf{preórden} es una relación reflexiva y transitiva. No es necesaria la antisimetría. Lo denotamos con $\leq$.
+- La relación de divisibilidad es un preórden  en el conjunto $\mathbb{Z}$. En los naturales ya es una relación de orden de las de toda la vida.
+- Concepto de \textbf{máximo} y \textbf{maximal}. Análogamente para los otros conceptos.
+- \textbf{Cota superior} y \textbf{cota inferior} de cualquier subconjunto. También \textbf{supremo} e \textbf{ínfimo}.
+- Los reales y sus subconjuntos son conjuntos ordenados.
+- Las partes de un conjunto también tiene una relación de orden.
+- Un conjunto \textbf{parcialmente ordenado} tiene las propiedades  reflexiva, transitiva y antisimétrica.
+- Los reales y el conjunto de partes son \textbf{posets}.
+- Los enteros no negativos con la divisibilidad son un poset.
+- Si tenemos dos posets en su producto cartesianos se puede definir también una relación de orden.
+- En el producto cartesiano también se puede introducir el orden lexicográfico.
+- En un \textbf{orden total} se puede comparar cualquier par de elementos.
+- Si tenemos dos órdenes totales, el orden lexicográfico también es total.
+- Los máximos y mínimos, si existen, son únicos. Los maximales y los minimales no tienen la propiedad de la unicidad.
+- Partiendo de un preorden puedo construir un poset definiendo una relación de equivalencia. El orden parcial se define en el conjunto cociente. La aplicación canónica en el cociente es un morfismo de orden.
+- Un subconjunto de un poset es una \textbf{cadena} si el orden en el subconjunto es total.
+- Una \textbf{anticadena} es un subconjunto donde ningún par de elementos  se pueden comparar.
+- En un poset finito se puede dibujar el \textbf{diagrama de Hasse}.
+- En un poset finito siempre hay maximales y minimales.
+- El \textbf{lema de Zorn} se aplica a conjuntos ordenados infinitos: Si toda cadena tiene una cota superior, entonces tiene elementos maximales.
+- El lema de Zorn es equivalente al axioma de elección.
+- El lema de Zorn se utiliza para hacer inducción transfinita.
+- Un \textbf{morfismo de poset} es una función que respecta el orden. También existen los \textbf{antimorfismos}.
+- Tenemos también los isomorfismos de poset. También antiisomorfismos.
+- Existen funciones biyectivas que respetan el orden, pero que no son isomorfismos. Por ejemplo la identidad en $\mathbb{N}$ con la divisibilidad y el orden habitual
+- En un conjunto totalmente ordenado el concepto de maximal, máximo y supremo son equivalentes.
+- En un conjunto finito existe un solo orden total, salvo isomorfismos. Para conjuntos infinitos esto no es cierto.
+- Si cambiamos el 1 y lo ponemos como mayor elemento, entonces este conjunto tiene máximo y mínimo. Por lo tanto no es isomorfo a orden natural.
+- Un \textbf{conjunto bien ordenado} se cumple que tenemos un orden total y cualquier subconjunto no vacío tiene primer elemento.
+- \textbf{El principio de buena ordenación} dice que en todo conjunto se puede definir un buen orden. Es equivalente al axioma de elección.
+- Un \textbf{retículo} o \textbf{lattice} es un conjunto ordenado de tal forma que para par de elementos siempre existe el supremo y el ínfimo.
+- El supremo se denota $a \vee b$  y el ínfimo $a \wedge b$.
+- Los naturales con la divisibilidad es un retículo. El supremo es mcm y el mínimo es el mcd.
+- Los divisores de un número también forman un retículo.
+- Las operaciones así definidas cumplen ciertas propiedades algebraicas.
+- Un retículo también se puede definir como un conjunto con dos operaciones y que cumplen:
+
+  - Asociatividad.
+  - Conmutatividad.
+  - Idempotencia.
+  - Absorción.
+
+- Estas dos definiciones son equivalentes. Se puede introducir una relación de orden utilizando las operaciones booleanas.
