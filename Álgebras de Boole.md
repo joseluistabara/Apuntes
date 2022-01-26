@@ -13,8 +13,13 @@
 - Definición de semigrupo. Tiene la asociativa.
 - Definición de monoide si es semigrupo con unidad.
 - Definición de grupo. Monoide con elemento inverso para todo elemento.
+- Definición de anillo. Dos operaciones, grupo con la suma, semigrupo con el producto y distributiva.
 
+## Vídeo 3. Definiciones algebraicas II.
 
-
+- Un anillo es **booleano** si $a^2 = a$ para todo elemento.
+- Un álgebra de **Boole** si es anillo booleano con identidad.
+- Se pueden definir álgebras de Boole a partir de una estructura de orden.
+- También se pueden definir a partir de los operadores $\vee, \wedge, \neg$.
 
 
